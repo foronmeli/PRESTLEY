@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet"/>
+	<title>PRESTLEY</title>
+	<link rel="stylesheet" type="text/css" href="css1.css">
+	<style>
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	background-image: repeating-linear-gradient(90deg, #fff, #fff 20px, white 20px, #FCF8F6  40px);
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.margen {
+	width: 90%;
+	max-width: 1200px;
+	margin: 20px auto;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, auto);
+	grid-template-areas:
+		'header			header   	header'
+		'destacado		destacado 	destacado'
+		'contenido		contenido 	contenido'
+		'footer	 		footer 		footer';
+}
+.header {
+	grid-area: header;
+	padding: 10px;
+	background: #fff;
+	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+}
+
+
+.linea1 {
+	border-top: 0.09em solid black;
+	border-bottom: 0.09em solid black;
+	font-size: 1em;
+	padding: 0.1em;
+	
+}
+
+.cua {
+	
+	background: #fff;
+	height: 105%;
+	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+}
+.cuappl {
+	grid-area: footer;
+	color: white;
+	height: 100%;
+	color: black;
+	background-color: #EBE2FA;
+	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+}
+
+.til1{
+	    padding: 0.2em 0.8em;
+        font-size: 25px;
+}
+.para1{
+	position: absolute;
+	top: 1em;
+    width: 9em;
+    height: 7em;
+}
+.ingre{position: absolute;
+		     top: 11em;
+		     left: 20em;
+		     width: 7em;
+		     height: 2.2em;
+		     font-size: 1.6em;}
+		.regis{position: absolute;
+		     top: 14em;
+		     left: 20em;
+		     width: 7em;
+		     height: 2.2em;
+		     font-size: 1.6em;}
+
+
+	</style>
+</head>
+<body >
+	<body>
+		<div class="margen">
+			<header class="header">
+			<h1><center>PRESTLEY</h1></center>
+			<img src="logo.png" class="para1">
+		</header>
+
+			<div class="cuappl">
+				<img src="ll.png" width="400px"></h2>
+				<a href="ingresar"><input class="ingre" type="button" value="Ingreso"></a>
+	<a href="registrar"><input class="regis" type="button" value="Registro"></a>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
